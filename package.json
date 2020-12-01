@@ -1,16 +1,16 @@
 {
-  "name": "chat-app",
+  "name": "serverwebsocket1",
   "version": "1.0.0",
-  "description": "synapse chat app",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "ws": "^7.3.1"
-  },
-  "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^7.4.0",
+    "ws-rate-limit": "0.0.0"
+  }
 }
